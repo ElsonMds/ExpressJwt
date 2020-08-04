@@ -1,0 +1,14 @@
+###ober os posts
+GET http://localhost:3000/posts
+
+###cadastrar um usuario
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+{
+    "name":"Cristina",
+    "password":"roberval"
+}
+
+### verifica os usuarios
+GET  http://localhost:3000/users
